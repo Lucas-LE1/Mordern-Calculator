@@ -1,0 +1,27 @@
+.content-operation {
+    width: max-content;
+    height: max-content;
+}
+
+.operation-key .circle {
+    width: 5px;
+    height: 5px;
+}
+
+[divisor="true"] {
+    transform: rotate(90deg);
+}
+
+.bar {
+    content: "";
+    width: 33%;
+    height: 1.75px;
+    background-color: #EBEBEB;
+    transform: rotate(90deg);
+}
+
+.divisor {
+    background-color: #EBEBEB;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
